@@ -1,0 +1,22 @@
+# baseurl: http://thebaguett.es
+canonifyurls: true
+languageCode: en-us
+title: The Baguettes
+
+Params:
+    github: The-Baguettes
+
+menu:
+    main:
+        - name: Home
+          url: /
+          identifier: home
+          weight: -1
+
+        - name: About
+          url: /about
+          identifier: about
+
+        - name: TFBS
+          url: /TFBS
+          identifier: TFBS

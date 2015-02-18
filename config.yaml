@@ -6,6 +6,9 @@ title: The Baguettes
 params:
     github: The-Baguettes
 
+permalinks:
+    post: /:year/:month/:title
+
 menu:
     main:
         - name: Home

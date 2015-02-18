@@ -89,7 +89,7 @@ h3 {
 }
 .nav-item a {
     background: transparent;
-    border: 2px solid rgb(176, 202, 219);
+    border: 2px solid rgb(149, 165, 176);
     color: #fff;
     margin-top: 1em;
     /*letter-spacing: 0.05em;
@@ -103,8 +103,20 @@ h3 {
     border: 2px solid rgb(61, 146, 201);
     text-decoration: none;
 }
+.nav-item-active a {
+    border-color: white;
+    cursor: default;
+}
+.nav-item-active a:active {
+    box-shadow: none;
+}
+.nav-item-active a:hover {
+    background-image: none;
+    border-color: white;
+}
 .nav-item-social {
     vertical-align: middle;
+    line-height: 30px;
 }
 .nav-item-social a {
     border: none;
@@ -221,7 +233,7 @@ h3 {
         width: 80px;
     }
     .nav-item-social-icon {
-        line-height: 2em !important;
+        margin-top: .7em;
     }
 
     .content {

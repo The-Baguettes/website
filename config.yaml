@@ -18,5 +18,5 @@ menu:
           identifier: about
 
         - name: TFBS
-          url: /TFBS
+          url: /tfbs
           identifier: TFBS

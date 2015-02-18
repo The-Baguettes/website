@@ -124,6 +124,7 @@ h3 {
 .nav-item-social a:hover,
 .nav-item-social a:focus {
     border: none;
+    outline: none;
 }
 .nav-item-social-icon {
     font-size: 38px !important;
@@ -232,8 +233,12 @@ h3 {
     .nav-item a {
         width: 80px;
     }
-    .nav-item-social-icon {
-        margin-top: .7em;
+    .nav-item-social {
+        display: inline-block;
+        margin-top: 2em;
+    }
+    .nav-item-social + .nav-item-social {
+        margin-left: 1em;
     }
 
     .content {

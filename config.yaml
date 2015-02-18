@@ -3,7 +3,7 @@ canonifyurls: true
 languageCode: en-us
 title: The Baguettes
 
-Params:
+params:
     github: The-Baguettes
 
 menu:

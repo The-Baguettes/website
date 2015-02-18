@@ -11,13 +11,13 @@
                     <li class="nav-item"><a class="pure-button nav-item-{{ .Identifier }}" href="{{ .Url }}">{{ .Name }}</a></li>
                 {{ end }}
                 {{ with .Site.Params.twitter }}
-                <li class="nav-item">
-                    <a class="pure-button" href="http://twitter.com/{{ . }}" target="_blank"><i class="fa fa-twitter"></i></a>
+                <li class="nav-item nav-item-social">
+                    <a class="pure-button" href="https://twitter.com/{{ . }}" target="_blank"><i class="fa fa-twitter"></i></a>
                 </li>
                 {{ end }}
                 {{ with .Site.Params.github }}
                 <li class="nav-item nav-item-social">
-                    <a href="http://github.com/{{ . }}" target="_blank"><i class="nav-item-social-icon fa fa-github"></i></a>
+                    <a href="https://github.com/{{ . }}" target="_blank"><i class="nav-item-social-icon fa fa-github"></i></a>
                 </li>
                 {{ end }}
             </ul>

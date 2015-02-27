@@ -5,4 +5,4 @@ title: "Hello World"
 ---
 
 Hello, from [the-baguettes.github.io](http://the-baguettes.github.io).  
-This is *The Baguettes* homepage and blog.
+This is *The Baguettes'* homepage and blog.
